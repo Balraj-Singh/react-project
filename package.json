@@ -2,7 +2,7 @@
   "name": "react-project",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://Balraj-Singh.github.io/react-project",
+  "homepage" : "http://balraj-singh.github.io/react-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b maingit -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
