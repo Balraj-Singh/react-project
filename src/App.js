@@ -1,24 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import ExpenseCalculator from './components/Expenses/ExpenseCalculator/ExpenseCalculator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Balraj's App
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+    <ExpenseCalculator />
   );
 }
 
